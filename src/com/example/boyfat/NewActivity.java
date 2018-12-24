@@ -28,15 +28,15 @@ public class NewActivity extends Activity {
 	    double sum = num1 / (cmtom*cmtom);
 	    
 	    if(sum>30){
-	    	rest.setText("ÍéÇ¹ÁÒ¡");
+	    	rest.setText("¤Ø³ : ÍéÇ¹ÁÒ¡");
 	    } else if (sum>=25 && sum<=29.9) {
-	    	rest.setText("ÍéÇ¹");
+	    	rest.setText("¤Ø³ : ÍéÇ¹");
 	    } else if (sum>=23 && sum<=24.9) {
-	    	rest.setText("¹éÓË¹Ñ¡à¡Ô¹");
+	    	rest.setText("¤Ø³ : ¹éÓË¹Ñ¡à¡Ô¹");
 	    } else if (sum>=18.6 && sum<=22.9) {
-	    	rest.setText("»¡µÔ");
+	    	rest.setText("¤Ø³ : »¡µÔ");
 	    } else {
-	    	rest.setText("¼ÍÁ");
+	    	rest.setText("¤Ø³ : ¼ÍÁ");
 	    }
 	    
 	    }
