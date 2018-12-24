@@ -43,7 +43,7 @@
         android:layout_alignLeft="@+id/editText2"
         android:layout_below="@+id/editText1"
         android:layout_marginTop="30dp"
-        android:text="ส่วนสูง (เมตร)" />
+        android:text="ส่วนสูง (เซนติเมตร)" />
 
     <TextView
         android:id="@+id/textView3"
@@ -63,6 +63,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
         android:onClick="on"
-        android:text="Button" />
+        android:text="คำนวณ" />
  
 </RelativeLayout>

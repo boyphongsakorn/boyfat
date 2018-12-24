@@ -23,18 +23,20 @@ public class NewActivity extends Activity {
 	    int num1 = Integer.parseInt(eT1.getText().toString());
 	    int num2 = Integer.parseInt(eT2.getText().toString());
 	    
-	    int sum = num1 / (num2*num2);
+	    double cmtom = num2/100;
+	    
+	    double sum = num1 / (cmtom*cmtom);
 	    
 	    if(sum>30){
-	    	rest.setText(Integer.toString(sum));
+	    	rest.setText("ÍéÇ¹ÁÒ¡");
 	    } else if (sum>=25 && sum<=29.9) {
-	    	rest.setText(Integer.toString(sum));
+	    	rest.setText("ÍéÇ¹");
 	    } else if (sum>=23 && sum<=24.9) {
-	    	rest.setText(Integer.toString(sum));
+	    	rest.setText("¹éÓË¹Ñ¡à¡Ô¹");
 	    } else if (sum>=18.6 && sum<=22.9) {
-	    	rest.setText(Integer.toString(sum));
+	    	rest.setText("¹éÓË¹Ñ¡»¡µÔ àËÁÒĞÊÁ");
 	    } else {
-	    	rest.setText(Integer.toString(sum));
+	    	rest.setText("¼ÍÁà¡Ô¹ä»");
 	    }
 	    
 	    }
