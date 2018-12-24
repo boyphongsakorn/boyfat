@@ -20,8 +20,8 @@ public class NewActivity extends Activity {
 	    EditText eT2 = (EditText)findViewById(R.id.editText2);
 	    TextView rest = (TextView)findViewById(R.id.textView3);
 	    
-	    int num1 = Integer.parseInt(eT1.getText().toString());
-	    int num2 = Integer.parseInt(eT2.getText().toString());
+	    double num1 = Double.parseDouble(eT1.getText().toString());
+	    double num2 = Double.parseDouble(eT2.getText().toString());
 	    
 	    double cmtom = num2/100;
 	    
@@ -34,9 +34,9 @@ public class NewActivity extends Activity {
 	    } else if (sum>=23 && sum<=24.9) {
 	    	rest.setText("¹éÓË¹Ñ¡à¡Ô¹");
 	    } else if (sum>=18.6 && sum<=22.9) {
-	    	rest.setText("¹éÓË¹Ñ¡»¡µÔ àËÁÒĞÊÁ");
+	    	rest.setText("»¡µÔ");
 	    } else {
-	    	rest.setText("¼ÍÁà¡Ô¹ä»");
+	    	rest.setText("¼ÍÁ");
 	    }
 	    
 	    }
