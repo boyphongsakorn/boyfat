@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">โรคอ้วน</string>
+	<string name="welcome">AndroidBegin - Android Button Click New Activity Example</string>
+	<string name="menu_settings">Settings</string>
+	<string name="Button">Button</string>
+	<string name="Starter">เริ่นต้น</string>
+
+</resources>
