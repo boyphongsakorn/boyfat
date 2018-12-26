@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="การปฎิบัติตัว\nเมื่อเป็นโรคอ้วนลงพุง"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="14dp"
+        android:text="1. การปรับเปลี่ยนพฤติกรรมด้านการบริโภค"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:text="กินอาหารให้ครบทุกมื้อ\nกินอาหารเย็นห่างจากเวลานอนอย่างน้อย 4 ซม.\nลดปริมาณอาหารทุกมื้อ\nหลีกเลี่ยงการกินอาหารที่มีคอเลสเตอรอลสูง\nกินอาหารที่มีเส้นใยมากๆ เพราะเส้นใยจะช่วยขัดขวางการดูดซึมไขมันที่ลำไส้เล็ก\nเลือกใช้น้ำมันพืชในการประกอบอาหาร เช่น น้ำมันถั่วเหลือง น้ำมันงา เป็นต้น" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="19dp"
+        android:text="อาหารที่ควรกิน" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100sp"
+        android:layout_height="75sp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/fun" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100sp"
+        android:layout_height="75sp"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/notfun" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/textView3"
+        android:text="อาหารที่ควรหลีกเลี่ยง" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/next" />
+
+</RelativeLayout>

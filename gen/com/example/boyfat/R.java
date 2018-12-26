@@ -12,26 +12,42 @@ public final class R {
     }
     public static final class drawable {
         public static final int fat=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int fatsize=0x7f020001;
+        public static final int fun=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int notfun=0x7f020004;
+        public static final int table=0x7f020005;
     }
     public static final class id {
         public static final int button1=0x7f060002;
-        public static final int editText1=0x7f060004;
-        public static final int editText2=0x7f060003;
+        public static final int editText1=0x7f06000b;
+        public static final int editText2=0x7f06000a;
         public static final int imageView1=0x7f060000;
+        public static final int imageView2=0x7f060009;
         public static final int textView1=0x7f060001;
-        public static final int textView2=0x7f060005;
+        public static final int textView2=0x7f060003;
         public static final int textView3=0x7f060006;
+        public static final int textView4=0x7f060005;
+        public static final int textView5=0x7f060004;
+        public static final int textView6=0x7f060007;
+        public static final int textView7=0x7f060008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int new_activity=0x7f030001;
+        public static final int info1=0x7f030001;
+        public static final int info2=0x7f030002;
+        public static final int info3=0x7f030003;
+        public static final int info4=0x7f030004;
+        public static final int info5=0x7f030005;
+        public static final int info6=0x7f030006;
+        public static final int new_activity=0x7f030007;
     }
     public static final class string {
         public static final int Button=0x7f040003;
         public static final int Starter=0x7f040004;
         public static final int app_name=0x7f040000;
         public static final int menu_settings=0x7f040002;
+        public static final int next=0x7f040005;
         public static final int welcome=0x7f040001;
     }
     public static final class style {

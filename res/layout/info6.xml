@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="2.การปรับเปลี่ยนพฤติกรรมด้านการออกกำลังกาย"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="14dp"
+        android:text="ออกกำลังกายอย่างต่อเนื่องและสม้ำเสมอ\nควรใช้เวลาอย่างน้อย 30 นาที ในการออกกำลังกายแต่ละครั้ง\nก่อนออกกำลังกายควรยืดกล้ามเนื้ออย่างน้อย 5-10 นาที เพื่อป้องกันการบาดเจ็บของกล้ามเนื้อ" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="26dp"
+        android:text="3.การปรับเปลี่ยนพฤติกรรมด้านอารมณ์"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="18dp"
+        android:text="สะกิด อธิบายให้คนในครอบครัวเข้าใจและช่วยในการลดน้ำหนัก\nสะกดใจ เพื่อไม่ให้บริโภคมากเกินไป\nสกัดสิ่งกระตุ้น เพื่อไม่ให้หิวแล้วลดความอยากอาหาร" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="โปรแกรม คำนวณ หาค่า BMI" />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="โรคอ้วนลงพุงมีเกณฑ์วินิจฉัยดังต่อไปนี้"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:text="1. เส้นรอบเอว > 90 cm. ในผู้ชาย และ > 80 cm. ในผู้หญิง" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:text="2. ต้องพบปัจจัยเสี่ยงต่อไปนี้ร่วมด้วย อย่างน้อย 2 ข้อ" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:text="ความดันโลหิตตั้งแต่ 130/85 mmhg ขึ้นไป หรือ ผู้ที่ได้รับยารักษาความดันโลหิตสูง" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:text="ระดับไขมันไตรกลีเซอไรด์ในเลือด > 150 mg/dl หรือผู้ที่มีไขมันสูงและได้รับยาลดไขมัน" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="18dp"
+        android:text="ระดับน้ำตาลในเลือด > 100 mg/dl หรือผู้ที่ได้รับการวินิจฉัยว่าเป็นโรคเบาหวานชนิดที่ 2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="16dp"
+        android:text="ระดับคอเลสเตอรอลชนิดดีในเลือด หรือ HDL-cholesterol &lt; 40 mg/dl ในผู้ชาย และ &lt; 50 mg/dl ในผู้หญิง หรือผู้ที่มีไขมันสูงและได้รับยาลดไขมัน" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView7"
+        android:text="@string/next" />
+
+</RelativeLayout>

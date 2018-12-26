@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="อันตรายของโรคอ้วนลงพุง"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:text="\tนอกจากจะอ้วนอึดอัดอุ้ยอ้ายไม่สบายตัวและใส่เสื้อผ้าไม่สวยแล้วโรคอ้วนยังก่ออันตรายต่อสุขภาพดังนี้\n1. ทำให้หลอดเลือดแดงที่ไปเลี้ยงหัวใจตีบ เกิดโรคหัวใจได้ง่าย\n2. ไตจะขับเกลือออกได้น้อยลง ทำให้เกิดความดันโลหิตสูง\n3. ไขมันไตรกลีเซอร์ไรด์ที่สูงเป็นปัจจัยเสี่ยงของการเกิดโรคหลอดเลือดตีบ\n4. เลือดจะแข็งตัวได้ง่าย ทำให้อุดหลอดเลือดที่ไปเลี้ยงสมองหรือหัวใจ\n5. เป็นโรคเบาหวานได้ง่าย\n6. หัวใจวาย ไตวาย\n7. ระบบหายใจ หายใจไม่เต็มอิ่ม ไม่เต็มปอด เสี่ยงต่อภาวะ หยุดหายใจขณะนอนหลับ\n8. โรคมะเร็ง\n9. โรคข้อเสื่อม ความเสี่ยงต่อโรคข้ออักเสบ ปวดหลัง ปวดเข่า\n10. ง่วงซึม\n11. ผลกระทบด้านอารมณ์ขาดความมั่นใจ นับถือตนเองลดลง\n12. มีโอกาสเป็นอัมพาตหรือเสียชีวิตได" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/next" />
+
+</RelativeLayout>
