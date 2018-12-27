@@ -22,9 +22,9 @@ public final class R {
         public static final int button1=0x7f060002;
         public static final int editText1=0x7f06000b;
         public static final int editText2=0x7f06000a;
-        public static final int imageView1=0x7f060000;
+        public static final int imageView1=0x7f060001;
         public static final int imageView2=0x7f060009;
-        public static final int textView1=0x7f060001;
+        public static final int textView1=0x7f060000;
         public static final int textView2=0x7f060003;
         public static final int textView3=0x7f060006;
         public static final int textView4=0x7f060005;

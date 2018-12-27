@@ -27,16 +27,16 @@ public class NewActivity extends Activity {
 	    
 	    double sum = num1 / (cmtom*cmtom);
 	    
-	    if(sum>30){
-	    	rest.setText("¤Ø³ : ÍéÇ¹ÁÒ¡");
-	    } else if (sum>=25 && sum<=29.9) {
-	    	rest.setText("¤Ø³ : ÍéÇ¹");
-	    } else if (sum>=23 && sum<=24.9) {
+	    if(sum>=30){
+	    	rest.setText("¤Ø³ : ÍéÇ¹ÃĞ´Ñº 2");
+	    } else if (sum>=25 && sum<=29.99) {
+	    	rest.setText("¤Ø³ : ÍéÇ¹ÃĞ´Ñº 1");
+	    } else if (sum>=23 && sum<=24.99) {
 	    	rest.setText("¤Ø³ : ¹éÓË¹Ñ¡à¡Ô¹");
-	    } else if (sum>=18.6 && sum<=22.9) {
-	    	rest.setText("¤Ø³ : »¡µÔ");
+	    } else if (sum>=18.5 && sum<=22.99) {
+	    	rest.setText("¤Ø³ : ¹éÓË¹Ñ¡»¡µÔ");
 	    } else {
-	    	rest.setText("¤Ø³ : ¼ÍÁ");
+	    	rest.setText("¤Ø³ : ¹éÓË¹Ñ¡¹éÍÂ");
 	    }
 	    
 	    }
